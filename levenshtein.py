@@ -1,3 +1,9 @@
+'''
+Created on:	Dec 20120
+
+@author: Tomas Pierrot, Theo Picke and Oualid
+
+'''
 import copy
 import numpy as np
 import matplotlib.pyplot as plt
