@@ -57,9 +57,8 @@ class mamLD(object):
         
 
 if __name__ == "__main__":
-    a=[[88, 24,12], [56, 56,65], [40, 88,98]] #notre scanpath
-    b=[[29, 15,34], [56, 56,65], [40, 88,98]]
-    #b=[[72, 24,35], [56, 56,56], [40, 88,76]] #vrai scanapath
+    a=[[88, 24,12], [56, 56,65], [40, 88,98]] #simulation de notre scanpath contenant les points par où il passe
+    b=[[29, 15,34], [56, 56,65], [40, 88,98]] #simulation du scanpath "réele"
     ### test case: point
     mamLD = mamLD(same_range=5) # same_range c'est le seuil à partir lequelle on peut dire que deux points sont égaux
     print(mamLD.levenshtein_distance(a,b)) #donne le nombre de modifications à effectuer pour avoir deux scanpath égaux
