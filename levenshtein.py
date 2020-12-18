@@ -1,7 +1,7 @@
 '''
 Created on:	Dec 20120
 
-@author: Tomas Pierrot, Theo Picke and Oualid
+@author: Oualid
 
 '''
 import copy
